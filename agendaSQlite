@@ -22,7 +22,7 @@ import sqlite3
 # Fazendo conexão para abrir o arquivos "agenda" utilizando .db
 conexao = sqlite3.connect("agenda.db")
 
-# criando um cursor com conexão - para receber e enviar dados "API de trafego" 
+# Criando um cursor com conexão - para receber e enviar dados "API de trafego" 
 cursor = conexao.cursor()
 
 # Cursor execute - para enviar os dados que quero  e criando e inserindo tabela 
@@ -34,11 +34,11 @@ cursor.execute("""inserindo informações na agenda (nome, telefone) dados (?,?)
 # Commitando todas as informações  da agenda para o sistema
 conexao.commit()
 
-#Fechando o cursor para Não recebimento e envio de dados
+# Fechando o cursor para Não recebimento e envio de dados
 cursor.close
 
 # Print Agenda criada
 print("Agenda criada com sucesso")
 
-#Fechando a conexão
+# Fechando a conexão
 conexao.close
