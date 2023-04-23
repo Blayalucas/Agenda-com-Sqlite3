@@ -8,9 +8,8 @@ Criando e fazendo em 8 passos:
 # Passo 1 - importando o SQLite3
 # Passo 2 - Fazendo conexão para abrir o arquivos "agenda" utilizando .db
 # Passo 3 - criando um cursor com conexão - para receber e enviar dados "API de trafego" 
-# Passo 4 - Cursor execute - para enviar os dados que quero usando aspas triplas 
-- SQlite utiliza como boa pratica """  """ e criando e inserindo tabela 
-para guardar NOMES e TELEFONES - "create table com values"
+# Passo 4 - Cursor execute - para enviar os dados que quero usando aspas triplas - SQlite utiliza como boa pratica """  """ e criando e inserindo tabela 
+para guardar NOMES e TELEFONES - "criando tabela  com dados"
 # Passo 5 - Commitando todas as informações da agenda para o sistema
 # Passo 6 - Fechando o cursor para NÂO recebimento e envio de dados
 # Passo 7 - print("Agenda criada com sucesso")
